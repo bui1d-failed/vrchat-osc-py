@@ -2,18 +2,19 @@
 
 **this repo is used to store my vrchat osc python scripts**
 
-**afk script**
+**AFK script**
 * auto chat
 * auto jump
 * auto walk
 * auto spin
 
-**auto_blink**
+**Auto blink**
 
-**options:**
-* rate
-* cooldown
+**OPTIONS:**
+* [+] rate
+* [+] cooldown
 
-**random_eye_pos**
-**options:**
-* cooldown
+**Random Eye Pos**
+
+**OPTIONS**
+* [+] cooldown
