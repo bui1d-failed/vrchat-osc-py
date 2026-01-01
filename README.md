@@ -13,7 +13,6 @@
 
 **Auto blink (OPTIONS)**
 
-**OPTIONS:**
 * [+] rate
 * [+] cooldown
 
