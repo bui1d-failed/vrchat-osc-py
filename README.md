@@ -11,7 +11,7 @@
 
 #
 
-**Auto blink**
+**Auto blink (OPTIONS)**
 
 **OPTIONS:**
 * [+] rate
@@ -19,7 +19,6 @@
 
 #
 
-**Random Eye Pos**
+**Random Eye Pos (OPTIONS)**
 
-**OPTIONS**
 * [+] cooldown
