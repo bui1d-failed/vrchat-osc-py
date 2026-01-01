@@ -8,7 +8,7 @@ autojump = True
 autowalk = True
 autospin = True
 autochat = True
-afk_message = "Has been AFK for: "
+afk_message = "这个人挂机了: "
 
 start_time = time.time()
 client = udp_client.SimpleUDPClient("127.0.0.1", 9000)
@@ -32,7 +32,7 @@ async def autoChat():
         minute = (elapsed % 3600) // 60
         second = elapsed % 60
 
-        chat_msg = f"{afk_message} {hour} (H) {minute} (M) {second} (S)"
+        chat_msg = f"{afk_message} {hour} 小时(H) {minute} 分钟(M) {second} 秒(S)"
         client.send_message("/chatbox/input", [chat_msg, True, False])
         await asyncio.sleep(3)
 
@@ -53,5 +53,5 @@ if __name__ == "__main__":
         client.send_message("/input/LookHorizontal", False)
         client.send_message("/input/Vertical", False)
         client.send_message("/chatbox/input", [" ", True, False])
-        client.send_message("/input/Jump", 1)
+        client.send_message("/input/Jump", 0)
         quit()
