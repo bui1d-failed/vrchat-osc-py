@@ -10,25 +10,26 @@
 4. Turn 'Enabled' ON
 5. Done and launch script
 
-#
-
 # **Features**
 
-**AFK script**
-* auto chat
-* auto jump
-* auto walk
-* auto spin
+**AFK script (Toggles)**
+* [+] auto chat
+* [+] auto jump
+* [+] auto walk
+* [+] auto spin
+
+**AFK script (Options)**
+* [+] customizable chat messages
 
 #
 
-**Auto blink (OPTIONS)**
+**Auto blink (Options)**
 
 * [+] rate
 * [+] cooldown
 
 #
 
-**Random Eye Pos (OPTIONS)**
+**Random Eye Pos (Options)**
 
 * [+] cooldown
